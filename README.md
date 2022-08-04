@@ -6,8 +6,8 @@
  * Page-object pattern
  * MochaJS test framework
  * Chai assertion library
- * HTML Report - wdio-html-nice-reporter library  
-
+ * HTML Report - wdio-html-nice-reporter library
+ * node-fetch - api tools 
 
 ### Requirements for running the tests:
 
@@ -19,6 +19,7 @@
  * [MochaJS](https://mochajs.org/) test runner used to run test cases
  * [Page-object](https://webdriver.io/docs/pageobjects) pattern usage
  * [Report](https://www.npmjs.com/package/wdio-html-nice-reporter) reporter usage
+ * [node-fetch](https://www.npmjs.com/package/node-fetch) api usage
 
 ### Steps for Installation and running the tests :
  
