@@ -1,0 +1,35 @@
+{
+  "name": "github_wdio_ridecell",
+  "version": "1.0.0",
+  "description": "### Project uses the following architecture:",
+  "main": "babel.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Atul Parihar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.16.9",
+    "@wdio/cli": "^7.16.13",
+    "@wdio/local-runner": "^7.16.13",
+    "@wdio/mocha-framework": "^7.16.13",
+    "@wdio/selenium-standalone-service": "^7.16.13",
+    "@wdio/spec-reporter": "^7.16.13",
+    "@wdio/sync": "^7.16.13",
+    "webdriverio": "^7.16.13"
+  },
+  "dependencies": {
+    "chai": "^4.3.5",
+    "jsonpath": "^1.1.1",
+    "node-fetch": "^2.6.7",
+    "wdio-html-nice-reporter": "^7.9.1"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
