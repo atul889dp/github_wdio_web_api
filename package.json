@@ -1,5 +1,5 @@
 {
-  "name": "github_wdio_ridecell",
+  "name": "github_wdio_web_api",
   "version": "1.0.0",
   "description": "### Project uses the following architecture:",
   "main": "babel.config.js",
